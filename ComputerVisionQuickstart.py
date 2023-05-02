@@ -29,7 +29,7 @@ Este exemplo irá extrair o texto em uma imagem remota e, em seguida, irá impri
 '''
 print("===== Lendo Arquivo - remoto =====")
 # Pega uma imagem com um texto
-read_image_url = "https://www.belasmensagens.com.br/wp-content/uploads/2012/08/a-imaginacao-400x300.jpg"
+read_image_url = "https://i.pinimg.com/originals/d4/ce/8c/d4ce8c7365f5edf7f298cdc7b967c5cc.png"
 # Chama a API  com a URL e com resposta raw (bruta). Isso permite obter a localização da operação
 read_response = computervision_client.read(read_image_url, raw=True)
 
