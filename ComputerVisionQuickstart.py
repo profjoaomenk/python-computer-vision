@@ -13,8 +13,8 @@ import time
 Autenticação
 Informe o ponto de extremidade (endpoint) e a chave de acesso ao Serviço (subscription_key)
 '''
-subscription_key = "277e71ed387a408d8c14027dce3e589b"
-endpoint = "https://know-image-rm9999.cognitiveservices.azure.com/"
+subscription_key = "SUA_CHAVE"
+endpoint = "SEU_ENDPOINT"
 
 #Autenticar o cliente
 
